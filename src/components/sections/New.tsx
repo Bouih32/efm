@@ -1,6 +1,10 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import ImageCard from "../ImageCard";
 import Container from "../Container";
+import placeholder1 from "../../../public/sanibell.png";
+import placeholder2 from "../../../public/jean.png";
+import placeholder3 from "../../../public/mclean.png";
+import placeholder4 from "../../../public/sanibell.png";
 
 export default function New() {
   return (
@@ -23,10 +27,10 @@ export default function New() {
         </div>
       </Container>
       <section className="flex  gap-5 pl-[50px]">
-        <ImageCard />
-        <ImageCard />
-        <ImageCard />
-        <ImageCard />
+        <ImageCard placeholder={placeholder1} />
+        <ImageCard placeholder={placeholder2} />
+        <ImageCard placeholder={placeholder3} />
+        <ImageCard placeholder={placeholder4} />
       </section>
     </section>
   );

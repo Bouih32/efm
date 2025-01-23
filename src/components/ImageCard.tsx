@@ -1,8 +1,11 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
-import placeholder from "../../public/sanibell.png";
 
-export default function ImageCard() {
+export default function ImageCard({
+  placeholder,
+}: {
+  placeholder: StaticImageData;
+}) {
   return (
     <div className="lg:min-w-[265px] lg:h-[400px] min-w-[198px] h-[299px] relative rounded-[5px] overflow-hidden">
       <Image src={placeholder} alt="placeholder" className="h-full w-full" />
