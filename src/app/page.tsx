@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import New from "@/components/sections/New";
+import Reviews from "@/components/sections/Reviews";
 import Who from "@/components/sections/Who";
 import Stats from "@/components/Stats";
 
@@ -27,6 +28,7 @@ export default function Home() {
 
       <Who />
       <New />
+      <Reviews />
     </main>
   );
 }
