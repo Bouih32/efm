@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Discount from "@/components/sections/Discount";
 import New from "@/components/sections/New";
 import Reviews from "@/components/sections/Reviews";
 import Who from "@/components/sections/Who";
@@ -29,6 +30,7 @@ export default function Home() {
       <Who />
       <New />
       <Reviews />
+      <Discount />
     </main>
   );
 }

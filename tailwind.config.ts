@@ -22,6 +22,7 @@ export default {
       },
       backgroundImage: {
         hero: "url(/living-room.png)",
+        discount: "url(/lamp.png)",
       },
 
       colors: {
