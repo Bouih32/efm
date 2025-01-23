@@ -31,7 +31,7 @@ export default function Reviews() {
             “They are have a perfect touch for make something so professional
             ,interest and useful for a lot of people .”
           </p>
-          <div className="flex gap-[30px] items-center text-[20px] ">
+          <div className="flex gap-[30px] items-center lg:text-[20px] ">
             <div className="w-[30px] h-[30px] rounded-full hover:bg-main hover:text-white grid place-content-center    ">
               <FaArrowLeft />
             </div>
