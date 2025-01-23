@@ -41,6 +41,14 @@ export default function Reviews() {
           </div>
         </div>
         <Image src={placeholder} alt="placeholder" />
+        <div className="flex lg:hidden gap-[30px] items-center lg:text-[20px] ">
+          <div className="w-[30px] h-[30px]   rounded-full hover:bg-main hover:text-white grid place-content-center    ">
+            <FaArrowLeft />
+          </div>
+          <div className="w-[30px] h-[30px] rounded-full hover:bg-main hover:text-white grid place-content-center  ">
+            <FaArrowRight />
+          </div>
+        </div>
       </section>
     </Container>
   );
