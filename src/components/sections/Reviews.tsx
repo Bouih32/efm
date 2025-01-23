@@ -17,11 +17,13 @@ export default function Reviews() {
               alt="user"
               className="lg:w-[80px] lg:h-[80px] w-[40px] h-[40px]"
             />
-            <div className="">
-              <h3 className="lg:text-20sm text-14sm font-semibold leading-[14px]">
+            <div className="space-y-3">
+              <h3 className="lg:text-20sm text-14sm font-semibold leading-[14px] lg:leading-[20px]">
                 Josh Smith
               </h3>
-              <p>Manager of The New York Times</p>
+              <p className="lg:text-14sm text-[10px] font-semibold leading-[10px] lg:leading-[14px] opacity-50   ">
+                Manager of The New York Times
+              </p>
             </div>
           </div>
           <p className="lg:text-20sm   lg:leading-[34px] text-14sm leading-[23.8px]">
