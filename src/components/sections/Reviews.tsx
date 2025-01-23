@@ -2,6 +2,7 @@ import Image from "next/image";
 import placeholder from "../../../public/house.png";
 import user from "../../../public/user.png";
 import Container from "../Container";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
 
 export default function Reviews() {
   return (
@@ -30,6 +31,14 @@ export default function Reviews() {
             “They are have a perfect touch for make something so professional
             ,interest and useful for a lot of people .”
           </p>
+          <div className="flex gap-[30px] items-center text-[20px] ">
+            <div className="w-[30px] h-[30px] rounded-full hover:bg-main hover:text-white grid place-content-center    ">
+              <FaArrowLeft />
+            </div>
+            <div className="w-[30px] h-[30px] rounded-full hover:bg-main hover:text-white grid place-content-center  ">
+              <FaArrowRight />
+            </div>
+          </div>
         </div>
         <Image src={placeholder} alt="placeholder" />
       </section>
