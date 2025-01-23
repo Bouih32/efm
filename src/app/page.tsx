@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Discount from "@/components/sections/Discount";
 import New from "@/components/sections/New";
@@ -31,6 +32,7 @@ export default function Home() {
       <New />
       <Reviews />
       <Discount />
+      <Footer />
     </main>
   );
 }
